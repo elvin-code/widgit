@@ -1,0 +1,7 @@
+git checkout -b feature3 // Create branch feature3 en local and switch 
+git push -u origin feature3 // Push the feature3 branch to remote and set origin upstream branch
+git ls-remote // List brnahc on remote
+git remote -v // List remote and URLs
+git fetch origin feature3 // Fetch the feature3 brnahc from remote to local
+git branch -a // List both remote-tracking and local branches
+git checkout --track origin/feature3 // Set up a local branch to track the remote branch
